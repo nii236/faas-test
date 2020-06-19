@@ -1,8 +1,4 @@
-package main
-
-func main() {
-
-}
+package utils
 
 // Result of the Add
 type Result struct {
