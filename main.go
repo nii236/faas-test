@@ -6,6 +6,6 @@ type Result struct {
 }
 
 // Add x and y together
-func Add(x int, y int) *Result {
-	return &Result{x + y}
+func Add(x int, y int) (*Result, error) {
+	return &Result{x + y}, nil
 }
